@@ -80,7 +80,7 @@ export default {
 
             this.answered = true
 
-            this.increments(isCorrect)
+            this.increment(isCorrect)
         },
         shuffleAnswers() {
             let answers = [...this.currentQuestion.incorrect_answers, this.currentQuestion.correct_answer]            
